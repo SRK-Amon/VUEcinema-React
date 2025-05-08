@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--dark);
+}
+
+@keyframes Luboy {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes bg {
+    0% {
+        filter: hue-rotate(0);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.btn {
+    padding: 17px 48px;
+    background-color: var(--gold);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: var(--r500);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000;
+}
+
+.title {
+    margin: 50px 0;
+    font-family: var(--c400);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: var(--gold);
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 5px;
+    width: max-content;
+}
